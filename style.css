@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px lightcyan;
+  background-size: cover;
+  /*image found on unsplash.com by Pawel Czerwinski*/
+  background-image: url(https://images.unsplash.com/photo-1552084117-56a987666449);
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 2px 2px lightgoldenrodyellow;
+}
+
+button {
+  font-family: inherit;
+  transition-duration: 300ms;
+  border: 3px solid black;
+  border-radius: 40%;
+  background-color: #FAF4DB;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px rgb(222, 192, 255);
+}
+
+#game div {
+  border: 2px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #FCEEEE;
+  transition: background-color 500ms, box-shadow 300ms;
+  border-radius: 20%;
+}
+
+#game div:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
